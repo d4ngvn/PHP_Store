@@ -1,0 +1,18 @@
+/* public/assets/css/custom.css */
+
+/* Làm hình ảnh card cao hơn một chút */
+.card-img-top {
+    height: 220px !important; /* Dùng !important để đè Bootstrap */
+    object-fit: cover;
+}
+
+/* Thêm một số khoảng cách cho main */
+main {
+    padding-bottom: 3rem;
+}
+
+/* Style cho form login/register */
+.form-signin {
+    max-width: 400px;
+    padding: 1rem;
+}
